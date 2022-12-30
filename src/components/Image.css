@@ -1,0 +1,14 @@
+.img img {
+  width: 330px;
+  height: 330px;
+  border-radius: 1rem 0 0 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .img {
+    height: 21rem;
+  }
+  .img img {
+    border-radius: 1rem 1rem 0 0;
+  }
+}
